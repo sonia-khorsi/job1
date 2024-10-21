@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige
+}
+
+.img_accueil    {
+    height: 145px;
+    width: 200px;
+    justify-content: space-between;
+    display: flex;
+    margin: 40px 100px 80px 20px;
+}
+
+h1{text-align: center;
+    font-size: 80px;
+    font-style: oblique;
+
+
+}
+.article {
+    display: flex ;
+
+}
+h2 {
+    font-size: medium;
+    text-align: left
+    
+    
+
+
+}
+.photo1
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+    
+
+ 
+h1{
+    text-align: center;
+    font-size: 100px;
+    color: gray;
+
+}
+
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(201, 194, 118);
+}
+
+.researchBar{
+    margin-left: 100px;
+    margin-right: 80PX;
+}
+
+#informations{ 
+    font-family: Arial, sans-serif;
+    
+}
+    
+
+
+
+
+
+ 
+.contact-form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a5ff8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #4a4eef;
+}
+
+.contact-info {
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #5a5ff8;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.Entreprise1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px
+}
+
+.arriereplan
+{
+    background-color: rgb(96, 110, 76);
+}
+@media (max-width: 768px) {
+    .img_accueil {
+        width: 100%; 
+        margin: 10px auto;
+    }
+
+    h1 {
+        font-size: 5vw; 
+    }
+
+    nav {
+        flex-direction: column; 
+    }
+}
+
+
+
+
+
+
+    
+

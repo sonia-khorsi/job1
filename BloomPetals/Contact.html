@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>MOODSOLEILMER</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="entreprise.html">Entreprise</a>
+                <a href="Contact.html">Contact</a>
+                <a href="réalisations.html">Réalisations</a>
+                <input class="researchBar" type="text" placeholder="Search...">
+            </nav>
+        </header>
+
+        <main>
+            <h1>Contactez-nous</h1>
+            <p style="margin:auto; width:50%">Utilisez ce formulaire pour nous envoyer vos informations.</p>
+
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div class="input-group">
+                            <label for="first-name">Prénom <span style="color:red">*</span></label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Votre prénom" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="last-name">Nom <span style="color:red">*</span></label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Votre nom" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="civilite">Civilité <span style="color:red">*</span></label>
+                        <select id="civilité" name="civilité" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="Monsieur">Monsieur</option>
+                            <option value="Madame">Madame</option>
+                            <option value="Autre">Autre</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="adresse">Adresse <span style="color:red">*</span></label>
+                        <input type="text" id="adresse" name="adresse" placeholder="Votre adresse" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message <span style="color:red">*</span></label>
+                        <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="additional-details">Détails supplémentaires</label>
+                        <textarea id="additional-details" name="additional-details" placeholder="Informations supplémentaires"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Envoyer</button>
+                </form>
+
+                <div class="contact-info">
+                    <p><strong>BloomPetals</strong></p>
+                    <p>Marseille, France</p>
+                    <p>+33 71 99 77 07</p>
+                    <p><a href="mailto:mail@test.com">mail@test.com</a></p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
